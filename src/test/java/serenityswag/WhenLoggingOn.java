@@ -18,6 +18,6 @@ public class WhenLoggingOn extends UIInteractionSteps {
 
     @Test
     public void usersCanLogOnViaTheHomePage() {
-        login.loginWithStandardUser();
+        login.useCredentials("acquyhexom1@gmail.com", "NiflFaejY92");
     }
 }
